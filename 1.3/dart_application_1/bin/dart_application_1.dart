@@ -7,7 +7,7 @@ void main(List<String> arguments) {
 
   List<String> lines = new File('input.txt').readAsLinesSync();
 
-  List<String> ss = [];
+
 
   int amout = (int.parse(lines[1]));
 
