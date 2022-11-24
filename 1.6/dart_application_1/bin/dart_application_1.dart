@@ -7,10 +7,10 @@ void main(List<String> arguments) {
     file = splited;
   }
   for (int i = 0; i < file.length; i++) {
-    if (file[i].length % 2 == 0) {
+    if (file[i].length % 2 != 0) {
       stdout.write('${file[i]} ');
     }
   }
-  print(' ');
-  print(file);
+ 
+ 
 }
