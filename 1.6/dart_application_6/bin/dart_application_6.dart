@@ -22,16 +22,6 @@ void main() {
     }
     return less;
   }
-
-  equallycount(temp) {
-    for (int i = 0; i < temp.length; i++) {
-      if (temp[i] == 0) {
-        equally += 1;
-      }
-    }
-    return equally;
-  }
-
   morecount(temp) {
     for (int i = 0; i < temp.length; i++) {
       if (temp[i] > 0) {
